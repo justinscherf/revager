@@ -47,8 +47,8 @@ public class Main {
 	 * The main method is not part of unit testing because it belongs to the
 	 * system test.
 	 * 
-	 * @param args
-	 *            the arguments
+	 * @param args the arguments
+	 * 
 	 */
 	public static void main(String[] args) {
 		/*
@@ -161,7 +161,8 @@ public class Main {
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(UI.getInstance().getMainFrame(),
 					GUITools.getMessagePane(
-							translate("The application cannot be restarted automatically on your system. Please start up RevAger manually after it has been closed.")),
+							translate(
+									"The application cannot be restarted automatically on your system. Please start up RevAger manually after it has been closed.")),
 					translate("Warning"), JOptionPane.WARNING_MESSAGE);
 		}
 
@@ -239,7 +240,8 @@ public class Main {
 		if (oldDataPathFound && newDataPathFound && !newDataPathExist) {
 			if (JOptionPane.showConfirmDialog(null,
 					GUITools.getMessagePane(
-							translate("RevAger has detected an existing review data folder from an earlier version of this application. Do you want to use the data for the new version of RevAger?")),
+							translate(
+									"RevAger has detected an existing review data folder from an earlier version of this application. Do you want to use the data for the new version of RevAger?")),
 					translate("Question"), JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {
 				try {
 					FileTools.copyDirectory(new File(oldDataPath), new File(newDataPath));
