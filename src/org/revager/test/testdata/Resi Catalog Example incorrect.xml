@@ -3,7 +3,7 @@
     <description>Rules of Software Project Management</description>
     <aspects>
         <aspect>
-            <id>1
+            <id>1</id>
             <category>Grafische Oberfläche</category>
             <directive>Sind alle Use-Cases beschrieben?</directive>
             <description>Wenn ein Use-Case angegeben wurde, dann muss er auch beschrieben

@@ -95,11 +95,7 @@ public class AddAspToFindPopupWindow extends JDialog {
 	 * 
 	 * @param parent
 	 *            the parent
-	 * @param titleText
-	 *            the title text
-	 * @param editing
-	 *            the editing
-	 */
+     */
 	public AddAspToFindPopupWindow(Window parent) {
 		super(parent);
 

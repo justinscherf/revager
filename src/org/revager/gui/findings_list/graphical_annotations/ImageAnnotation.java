@@ -32,11 +32,7 @@ public class ImageAnnotation {
 	 * Graphical annotation
 	 * 
 	 * @param type
-	 * @param size
-	 * @param color
-	 * @param position
-	 * @param thickness
-	 */
+     */
 	private ImageAnnotation(Type type) {
 		super();
 

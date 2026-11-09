@@ -2,10 +2,9 @@
 <aspects xmlns="http://www.informatik.uni-stuttgart.de/iste/se" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.informatik.uni-stuttgart.de/iste/se http://www.team-neos.de/site/sites/default/files/Resi%20XML%20Schema%20-%20V1.3%20Maiensas.xsd">
     <aspect>
         <id>1</id>
-        Grafische Oberfläche</category>
+        <category>Grafische Oberfläche</category>
         <directive>Sind alle Use-Cases beschrieben?</directive>
-        <description>Wenn ein Use-Case angegeben wurde, dann muss er auch beschrieben
-      werden. Falls nicht, dann ist die Spezifikation unvollständig.</description>
+        <description>Wenn ein Use-Case angegeben wurde, dann muss er auch beschrieben werden. Falls nicht, dann ist die Spezifikation unvollständig.</description>
     </aspect>
     <aspect>
         <id>2</id>

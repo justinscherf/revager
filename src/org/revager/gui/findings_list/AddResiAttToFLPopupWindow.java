@@ -105,9 +105,7 @@ public class AddResiAttToFLPopupWindow extends JDialog {
 	 * 
 	 * @param parent
 	 *            the parent
-	 * @param titleText
-	 *            the title text
-	 */
+     */
 	public AddResiAttToFLPopupWindow(Window parent) {
 		super(parent);
 

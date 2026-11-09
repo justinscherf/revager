@@ -375,7 +375,7 @@ public class FileTools {
 	 * 
 	 * @param fileName
 	 *            the file name
-	 * @param files
+	 * @param fileNames
 	 *            the list of file names
 	 * 
 	 * @return true, if the list contains the given file name

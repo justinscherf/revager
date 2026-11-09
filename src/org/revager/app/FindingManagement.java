@@ -99,8 +99,9 @@ public class FindingManagement {
 	/**
 	 * Returns the finding with the given id; otherwise null
 	 * 
-	 * @param finding
+	 * @param findId
 	 *            id
+	 * @param prot protocol
 	 * 
 	 * @return finding
 	 */

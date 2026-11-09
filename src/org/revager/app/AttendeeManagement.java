@@ -329,7 +329,7 @@ public class AttendeeManagement {
 	/**
 	 * Checks if the given attendee exists
 	 * 
-	 * @param attendee
+	 * @param att
 	 *            the attendee to check
 	 * 
 	 * @return true, if the given attendee exists
